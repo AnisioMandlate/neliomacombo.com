@@ -1,11 +1,12 @@
 {
-  "name": "adilsonmandlate.dev",
+  "name": "nelioamcombo.com",
   "version": "1.0.1",
-  "description": "Adilson's personal website",
+  "description": "Nelio's personal website",
   "private": true,
   "keywords": [
-    "adilson",
-    "mandlate",
+    "nelio",
+    "macombo",
+    "neliomacombo",
     "tailwind",
     "css",
     "nextJS",
@@ -37,10 +38,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/adilsonmandlate/adilsonmandlate.dev"
+    "url": "https://github.com/AnisioMandlate/neliomacombo.com"
   },
   "bugs": {
-    "url": "https://github.com/adilsonmandlate/adilsonmandlate.dev/issues"
+    "url": "https://github.com/AnisioMandlate/neliomacombo.com/issues"
   },
   "lint-staged": {
     "src/**/*.{js,jsx}": [
