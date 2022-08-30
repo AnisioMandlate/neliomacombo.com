@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <Fragment>
       <Head>
-        <title>Adilson Mandlate | Front end developer</title>
+        <title>Nélio Macombo | Product Manager</title>
       </Head>
 
       <div className="flex flex-col justify-center h-main">

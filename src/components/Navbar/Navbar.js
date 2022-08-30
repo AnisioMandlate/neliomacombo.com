@@ -12,9 +12,9 @@ const Navbar = () => {
       <Link href="/">
         <a className="text-gray-800 dark:text-gray-50 no-underline">
           <Image
-            src="/icon-512.png"
-            width={38}
-            height={38}
+            src="/assets/logo-blue.svg"
+            width={100}
+            height={100}
             alt="Adilson Mandlate"
           />
         </a>
