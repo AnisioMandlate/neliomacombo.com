@@ -24,7 +24,7 @@ const Navbar = () => {
         <Link href="/about-me/">
           <a
             className={`no-underline text-sm transition-all duration-500 hover:text-custom-dark-green dark:hover:text-custom-green ${
-              router.pathname === "/about"
+              router.pathname === "/about-me"
                 ? "text-custom-dark-green dark:text-custom-green"
                 : "text-gray-800 dark:text-gray-50"
             } `}

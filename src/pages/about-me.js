@@ -8,8 +8,8 @@ export default function About() {
         <title>About Me - Nélio Macombo | Product Manager</title>
       </Head>
 
-      <div className="my-8 flex flex-col justify-center min-h-[100vh]">
-        <section className="mt-8">
+      <div className="my-8 flex flex-col justify-center">
+        <section className="mt-8 dark:text-white">
           <h1 className="text-2xl md:text-3xl font-serif text-title dark:text-white font-bold mb-5 uppercase">
             About Me
           </h1>
@@ -52,7 +52,7 @@ export default function About() {
           </ul>
         </section>
 
-        <section className="mt-8">
+        <section className="mt-8 dark:text-white">
           <h1 className="text-2xl md:text-3xl font-serif text-title dark:text-white font-bold mb-5 uppercase">
             Certifications
           </h1>
@@ -93,7 +93,7 @@ export default function About() {
           </ul>
         </section>
 
-        <section className="mt-8">
+        <section className="mt-8 dark:text-white">
           <h1 className="text-2xl md:text-3xl font-serif text-title dark:text-white font-bold mb-5 uppercase">
             Education
           </h1>

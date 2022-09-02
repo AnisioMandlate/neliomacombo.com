@@ -6,44 +6,46 @@ import { getAllProjectsData } from "../lib/api";
 const Work = ({ projects }) => (
   <Fragment>
     <Head>
-      <title>Work - Adilson Mandlate | Front end developer</title>
+      <title>Work - Nélio Macombo | Product Manager</title>
     </Head>
 
-    <header className="pb-16">
-      <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 text-custom-dark-green dark:text-custom-green">
-        Work
-      </h1>
+    <section className="my-8 flex flex-col justify-center">
+      <header className="pb-16">
+        <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 text-custom-dark-green dark:text-custom-green">
+          Work
+        </h1>
 
-      <p className="text-lg">Here are some of the things I've built</p>
-    </header>
+        <p className="text-lg">Here are some of the things I've built</p>
+      </header>
 
-    <ul>
-      {projects.map((project) => (
-        <li
-          key={project.date}
-          className="grid grid-cols-project items-center project"
-        >
-          <div className="project-content">
-            <h2 className="uppercase font-semibold text-custom-dark-green dark:text-custom-green">
-              {project.title}
-            </h2>
-            <div className="project-content__description bg-white dark:bg-gray-900">
-              <p>{project.description}</p>
+      <ul>
+        {projects.map((project) => (
+          <li
+            key={project.date}
+            className="grid grid-cols-project items-center project"
+          >
+            <div className="project-content">
+              <h2 className="uppercase font-semibold text-custom-dark-green dark:text-custom-green">
+                {project.title}
+              </h2>
+              <div className="project-content__description bg-white dark:bg-gray-900">
+                <p>{project.description}</p>
+              </div>
+              <div>
+                {project.tags.map((tag, index) => (
+                  <span
+                    key={`${project.date}-${tag}-${index}`}
+                    className="mr-5 text-xs text-gray-500"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
             </div>
-            <div>
-              {project.tags.map((tag, index) => (
-                <span
-                  key={`${project.date}-${tag}-${index}`}
-                  className="mr-5 text-xs text-gray-500"
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
-          </div>
-        </li>
-      ))}
-    </ul>
+          </li>
+        ))}
+      </ul>
+    </section>
   </Fragment>
 );
 
