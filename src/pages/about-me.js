@@ -60,33 +60,48 @@ export default function About() {
           <ul className="mt-8 pl-8 text-lg leading-[150%] md:leading-9 max-w-[100%] font-sans">
             <li className="mt-6">
               <b>• 2021</b> - Product Management Nanodegree Program from{" "}
-              <a href="https://www.udacity.com/course/product-manager-nanodegree--nd036">
+              <a
+                className="text-custom-dark-green dark:text-[#4c7efc]"
+                href="https://www.udacity.com/course/product-manager-nanodegree--nd036"
+              >
                 Udacity
               </a>
             </li>
             <li className="mt-6">
               <b>• 2021</b> - Marketing Analytics Nanodegree Program from{" "}
-              <a href="https://www.udacity.com/course/marketing-analytics-nanodegree--nd028">
+              <a
+                className="text-custom-dark-green dark:text-[#4c7efc]"
+                href="https://www.udacity.com/course/marketing-analytics-nanodegree--nd028"
+              >
                 Udacity
               </a>
             </li>
             <li className="mt-6">
               <b>• 2021</b> - Agile Project Manager Certification from{" "}
-              <a href="https://www.linkedin.com/learning/paths/become-an-agile-project-manager?u=2037052">
+              <a
+                className="text-custom-dark-green dark:text-[#4c7efc]"
+                href="https://www.linkedin.com/learning/paths/become-an-agile-project-manager?u=2037052"
+              >
                 LinkedIn Learning
               </a>
             </li>
             <li className="mt-6">
               <b>• 2018</b> - Web Mobile Specialization from Andela Learning
               Community powered by{" "}
-              <a href="https://drive.google.com/file/d/1JB04bdNVrb-96qdC6EUlRk4c8oOPXK6i/view?usp=sharing">
+              <a
+                className="text-custom-dark-green dark:text-[#4c7efc]"
+                href="https://drive.google.com/file/d/1JB04bdNVrb-96qdC6EUlRk4c8oOPXK6i/view?usp=sharing"
+              >
                 Google
               </a>
             </li>
             <li className="mt-6">
               <b>• 2015</b> - Specialization in Software Engineering and Digital
               Business from{" "}
-              <a href="https://drive.google.com/file/d/1hYkNPUsQeIjb4Bo9p31Nclm0dHzQTPyT/view?usp=sharing">
+              <a
+                className="text-custom-dark-green dark:text-[#4c7efc]"
+                href="https://drive.google.com/file/d/1hYkNPUsQeIjb4Bo9p31Nclm0dHzQTPyT/view?usp=sharing"
+              >
                 C.E.S.A.R EDU, Brazil
               </a>
             </li>

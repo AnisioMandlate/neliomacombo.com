@@ -23,9 +23,9 @@ const Navbar = () => {
       <div className="flex items-center">
         <Link href="/about-me/">
           <a
-            className={`no-underline text-sm transition-all duration-500 hover:text-custom-dark-green dark:hover:text-custom-green ${
+            className={`no-underline text-sm transition-all duration-500 hover:text-custom-dark-green dark:hover:text-[#4c7efc] ${
               router.pathname === "/about-me"
-                ? "text-custom-dark-green dark:text-custom-green"
+                ? "text-custom-dark-green dark:text-[#4c7efc]"
                 : "text-gray-800 dark:text-gray-50"
             } `}
           >
@@ -35,9 +35,9 @@ const Navbar = () => {
         <div className="text-gray-300 dark:text-gray-500 mx-7">•</div>
         <Link href="/work/">
           <a
-            className={`no-underline text-sm transition-all duration-500 hover:text-custom-dark-green dark:hover:text-custom-green ${
+            className={`no-underline text-sm transition-all duration-500 hover:text-custom-dark-green dark:hover:text-[#4c7efc] ${
               router.pathname === "/work"
-                ? "text-custom-dark-green dark:text-custom-green"
+                ? "text-custom-dark-green dark:text-[#4c7efc]"
                 : "text-gray-800 dark:text-gray-50"
             } `}
           >
@@ -47,9 +47,9 @@ const Navbar = () => {
         <div className="text-gray-300 dark:text-gray-500 mx-7">•</div>
         <Link href="/contact/">
           <a
-            className={`no-underline text-sm transition-all duration-500 hover:text-custom-dark-green dark:hover:text-custom-green ${
+            className={`no-underline text-sm transition-all duration-500 hover:text-custom-dark-green dark:hover:text-[#4c7efc] ${
               router.pathname === "/contact"
-                ? "text-custom-dark-green dark:text-custom-green"
+                ? "text-custom-dark-green dark:text-[#4c7efc]"
                 : "text-gray-800 dark:text-gray-50"
             } `}
           >
@@ -67,7 +67,7 @@ const Navbar = () => {
             viewBox="0 0 24 24"
             fill="currentColor"
             stroke="currentColor"
-            className="w-4 h-4 transition-all duration-500 hover:text-custom-dark-green dark:hover:text-custom-green"
+            className="w-4 h-4 transition-all duration-500 hover:text-custom-dark-green dark:hover:text-[#4c7efc]"
           >
             {resolvedTheme === "dark" ? (
               <>

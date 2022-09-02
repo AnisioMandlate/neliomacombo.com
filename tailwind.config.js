@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Inter", ...fontFamily.sans],
+        sans: ["Author", ...fontFamily.sans],
       },
       gridTemplateRows: {
         app: "1fr 90px",
