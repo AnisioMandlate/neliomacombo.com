@@ -12,15 +12,27 @@ const Navbar = () => {
       <Link href="/">
         <a className="text-gray-800 dark:text-gray-50 no-underline">
           <Image
-            src="/assets/logo-blue.svg"
+            src="/assets/logo-blue.png"
             width={100}
             height={100}
-            alt="Adilson Mandlate"
+            alt="Nélio Macombo logo"
           />
         </a>
       </Link>
 
       <div className="flex items-center">
+        <Link href="/about-me/">
+          <a
+            className={`no-underline text-sm transition-all duration-500 hover:text-custom-dark-green dark:hover:text-custom-green ${
+              router.pathname === "/about"
+                ? "text-custom-dark-green dark:text-custom-green"
+                : "text-gray-800 dark:text-gray-50"
+            } `}
+          >
+            About Me
+          </a>
+        </Link>
+        <div className="text-gray-300 dark:text-gray-500 mx-7">•</div>
         <Link href="/work/">
           <a
             className={`no-underline text-sm transition-all duration-500 hover:text-custom-dark-green dark:hover:text-custom-green ${
@@ -30,6 +42,18 @@ const Navbar = () => {
             } `}
           >
             Work
+          </a>
+        </Link>
+        <div className="text-gray-300 dark:text-gray-500 mx-7">•</div>
+        <Link href="/contact/">
+          <a
+            className={`no-underline text-sm transition-all duration-500 hover:text-custom-dark-green dark:hover:text-custom-green ${
+              router.pathname === "/contact"
+                ? "text-custom-dark-green dark:text-custom-green"
+                : "text-gray-800 dark:text-gray-50"
+            } `}
+          >
+            Contact
           </a>
         </Link>
         <div className="text-gray-300 dark:text-gray-500 mx-7">•</div>
