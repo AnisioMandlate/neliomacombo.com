@@ -1,5 +1,6 @@
 import matter from "gray-matter";
 import Head from "next/head";
+import Image from "next/image";
 import { Fragment } from "react";
 import { getAllProjectsData } from "../lib/api";
 
@@ -11,11 +12,11 @@ const Work = ({ projects }) => (
 
     <section className="my-8 flex flex-col justify-center">
       <header className="pb-16">
-        <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 text-custom-dark-green dark:text-custom-green">
+        <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 text-title dark:text-white">
           Work
         </h1>
 
-        <p className="text-lg">Here are some of the things I've built</p>
+        <p className="text-lg">Here are some of the things I've worked on</p>
       </header>
 
       <ul>
@@ -41,6 +42,14 @@ const Work = ({ projects }) => (
                   </span>
                 ))}
               </div>
+            </div>
+            <div className="project-image">
+              <Image
+                src={`/${project.image}`}
+                alt={`${project.title} preview image`}
+                width={600}
+                height={400}
+              />
             </div>
           </li>
         ))}
