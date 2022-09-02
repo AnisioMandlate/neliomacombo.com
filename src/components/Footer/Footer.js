@@ -3,7 +3,7 @@ export const Footer = ({ ...props }) => {
     <footer className="w-full h-full grid md:grid-cols-2 max-w-7xl items-center pt-2 md:px-12 md:pt-0 border-t border-gray-700 dark:border-gray-800 border-opacity-5">
       <div className="flex justify-self-center md:justify-self-start mt-4 md:mt-0">
         <a
-          href="https://github.com/adilsonmandlate"
+          href="https://github.com/neliomacombo"
           rel="nofollow noopener noreferrer"
           className="text-gray-800 dark:text-gray-50 mr-10"
         >
@@ -25,7 +25,7 @@ export const Footer = ({ ...props }) => {
         </a>
 
         <a
-          href="https://twitter.com/adilsonmandlate"
+          href="https://twitter.com/NelioMm"
           rel="nofollow noopener noreferrer"
           className="text-gray-800 dark:text-gray-50 mr-10"
         >
@@ -47,7 +47,7 @@ export const Footer = ({ ...props }) => {
         </a>
 
         <a
-          href="mailto:me@adilsonmandlate.dev"
+          href="mailto:ineliomacombo@gmail.com"
           className="text-gray-800 dark:text-gray-50"
         >
           <span className="sr-only">E-mail</span>
