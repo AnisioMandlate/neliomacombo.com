@@ -10,7 +10,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="flex flex-row items-center fixed z-10 top-0 right-0 left-0 justify-between max-w-7xl w-full mx-auto px-10 md:px-12 py-6 bg-white dark:bg-gray-900">
+    <nav className="flex flex-row items-center fixed z-10 top-0 right-0 left-0 justify-between max-w-7xl w-full mx-auto px-10 md:px-12 py-3 md:py-6 bg-white dark:bg-gray-900">
       <div className="w-full flex justify-between items-center">
         <Link href="/">
           <a className="text-gray-800 dark:text-gray-50 no-underline">
