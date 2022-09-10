@@ -8,8 +8,8 @@ export default function Contact() {
         <title>Contact - Nélio Macombo | Product Manager</title>
       </Head>
 
-      <section className="my-8 flex flex-row justify-between w-full gap-8">
-        <header className="pb-16 w-[50%]">
+      <section className="my-8 flex flex-col md:flex-row justify-between w-full gap-8">
+        <header className="pt-2 pb-16 w-full md:w-[50%]">
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 text-title dark:text-white">
             Get in touch
           </h1>
@@ -27,7 +27,7 @@ export default function Contact() {
           </p>
         </header>
 
-        <section className="text-gray-700 dark:text-white w-[50%]">
+        <section className="py-3 text-gray-700 dark:text-white w-full md:w-[50%]">
           <div className="mt-5 md:col-span-full md:mt-0">
             <form action="#" method="POST">
               <div>
