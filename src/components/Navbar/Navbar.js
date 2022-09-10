@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 const Navbar = () => {
   const { resolvedTheme, setTheme } = useTheme();
   const router = useRouter();
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   return (
     <nav className="flex flex-row items-center fixed z-10 top-0 right-0 left-0 justify-between max-w-7xl w-full mx-auto px-10 md:px-12 py-6 bg-white dark:bg-gray-900">
@@ -77,7 +77,7 @@ const Navbar = () => {
         <li>
           <Link href="/about-me/">
             <a
-              className={`no-underline text-sm transition-all duration-500 hover:text-custom-dark-green dark:hover:text-[#4c7efc] ${
+              className={`no-underline text-lg md:text-sm transition-all duration-500 hover:text-custom-dark-green dark:hover:text-[#4c7efc] ${
                 router.pathname === "/about-me"
                   ? "text-custom-dark-green dark:text-[#4c7efc]"
                   : "text-gray-800 dark:text-gray-50"
@@ -93,7 +93,7 @@ const Navbar = () => {
         <li>
           <Link href="/work/">
             <a
-              className={`no-underline text-sm transition-all duration-500 hover:text-custom-dark-green dark:hover:text-[#4c7efc] ${
+              className={`no-underline text-lg md:text-sm transition-all duration-500 hover:text-custom-dark-green dark:hover:text-[#4c7efc] ${
                 router.pathname === "/work"
                   ? "text-custom-dark-green dark:text-[#4c7efc]"
                   : "text-gray-800 dark:text-gray-50"
@@ -109,7 +109,7 @@ const Navbar = () => {
         <li>
           <Link href="/contact/">
             <a
-              className={`no-underline text-sm transition-all duration-500 hover:text-custom-dark-green dark:hover:text-[#4c7efc] ${
+              className={`no-underline text-lg md:text-sm transition-all duration-500 hover:text-custom-dark-green dark:hover:text-[#4c7efc] ${
                 router.pathname === "/contact"
                   ? "text-custom-dark-green dark:text-[#4c7efc]"
                   : "text-gray-800 dark:text-gray-50"
