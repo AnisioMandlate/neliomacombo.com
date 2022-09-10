@@ -33,35 +33,35 @@ export default function Contact() {
               <div>
                 <div>
                   <div className="grid grid-cols-6 gap-6">
-                    <div className="col-span-6 sm:col-span-3">
+                    <div className="col-span-full">
                       <label
-                        htmlFor="first-name"
+                        htmlFor="name"
                         className="block text-sm font-medium"
                       >
-                        First name
+                        Name*
                       </label>
                       <input
                         type="text"
-                        name="first-name"
-                        id="first-name"
-                        autoComplete="given-name"
-                        className="mt-1 block w-full border-b bg-transparent shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm h-10"
+                        name="name"
+                        id="name"
+                        autoComplete="name"
+                        className="mt-1 block w-full border-b border-black dark:border-white bg-transparent shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm h-10"
                       />
                     </div>
 
-                    <div className="col-span-6 sm:col-span-3">
+                    <div className="col-span-full">
                       <label
-                        htmlFor="last-name"
+                        htmlFor="company-name"
                         className="block text-sm font-medium"
                       >
-                        Last name
+                        Company Name
                       </label>
                       <input
                         type="text"
-                        name="last-name"
-                        id="last-name"
-                        autoComplete="family-name"
-                        className="mt-1 block w-full border-b bg-transparent shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm h-10"
+                        name="company-name"
+                        id="company-name"
+                        autoComplete="company-name"
+                        className="mt-1 block w-full border-b border-black dark:border-white bg-transparent shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm h-10"
                       />
                     </div>
 
@@ -70,14 +70,46 @@ export default function Contact() {
                         htmlFor="email-address"
                         className="block text-sm font-medium"
                       >
-                        Email address
+                        Email*
                       </label>
                       <input
                         type="text"
                         name="email-address"
                         id="email-address"
                         autoComplete="email"
-                        className="mt-1 block w-full border-b bg-transparent shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm h-10"
+                        className="mt-1 block w-full border-b border-black dark:border-white bg-transparent shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm h-10"
+                      />
+                    </div>
+
+                    <div className="col-span-full">
+                      <label
+                        htmlFor="phone-number"
+                        className="block text-sm font-medium"
+                      >
+                        Phone Number
+                      </label>
+                      <input
+                        type="text"
+                        name="phone-number"
+                        id="phone-number"
+                        autoComplete="phone-number"
+                        className="mt-1 block w-full border-b border-black dark:border-white bg-transparent shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm h-10"
+                      />
+                    </div>
+
+                    <div className="col-span-full">
+                      <label
+                        htmlFor="website-url"
+                        className="block text-sm font-medium"
+                      >
+                        Website URL*
+                      </label>
+                      <input
+                        type="text"
+                        name="website-url"
+                        id="website-url"
+                        autoComplete="website"
+                        className="mt-1 block w-full border-b border-black dark:border-white bg-transparent shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm h-10"
                       />
                     </div>
 
@@ -92,7 +124,7 @@ export default function Contact() {
                         type="text"
                         name="project-details"
                         id="project-details"
-                        className="mt-1 block w-full border-b bg-transparent shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm h-40"
+                        className="mt-1 block w-full border-b border-black dark:border-white bg-transparent shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm h-40"
                         required
                       />
                     </div>
