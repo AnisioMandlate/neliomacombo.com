@@ -26,7 +26,7 @@ const Work = ({ projects }) => (
             className="grid grid-cols-project items-center project"
           >
             <div className="project-content">
-              <h2 className="uppercase font-semibold text-custom-dark-green dark:text-custom-green">
+              <h2 className="uppercase font-semibold text-[#4c7efc]">
                 {project.title}
               </h2>
               <div className="project-content__description bg-white dark:bg-gray-900">
