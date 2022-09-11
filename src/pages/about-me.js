@@ -10,7 +10,7 @@ export default function About() {
 
       <div className="my-8 flex flex-col justify-center">
         <section className="mt-8 dark:text-white">
-          <h1 className="text-2xl md:text-3xl font-serif text-title dark:text-white font-bold mb-5 uppercase">
+          <h1 className="text-2xl md:text-3xl font-serif text-[#4c7efc] dark:text-white font-bold mb-5 uppercase">
             About Me
           </h1>
 
@@ -53,7 +53,7 @@ export default function About() {
         </section>
 
         <section className="mt-8 dark:text-white">
-          <h1 className="text-2xl md:text-3xl font-serif text-title dark:text-white font-bold mb-5 uppercase">
+          <h1 className="text-2xl md:text-3xl font-serif text-[#4c7efc] dark:text-white font-bold mb-5 uppercase">
             Certifications
           </h1>
 
@@ -61,7 +61,7 @@ export default function About() {
             <li className="mt-6">
               <b>• 2021</b> - Product Management Nanodegree Program from{" "}
               <a
-                className="text-custom-dark-green dark:text-[#4c7efc]"
+                className="text-[#4c7efc]"
                 href="https://www.udacity.com/course/product-manager-nanodegree--nd036"
               >
                 Udacity
@@ -70,7 +70,7 @@ export default function About() {
             <li className="mt-6">
               <b>• 2021</b> - Marketing Analytics Nanodegree Program from{" "}
               <a
-                className="text-custom-dark-green dark:text-[#4c7efc]"
+                className="text-[#4c7efc]"
                 href="https://www.udacity.com/course/marketing-analytics-nanodegree--nd028"
               >
                 Udacity
@@ -79,7 +79,7 @@ export default function About() {
             <li className="mt-6">
               <b>• 2021</b> - Agile Project Manager Certification from{" "}
               <a
-                className="text-custom-dark-green dark:text-[#4c7efc]"
+                className="text-[#4c7efc]"
                 href="https://www.linkedin.com/learning/paths/become-an-agile-project-manager?u=2037052"
               >
                 LinkedIn Learning
@@ -89,7 +89,7 @@ export default function About() {
               <b>• 2018</b> - Web Mobile Specialization from Andela Learning
               Community powered by{" "}
               <a
-                className="text-custom-dark-green dark:text-[#4c7efc]"
+                className="text-[#4c7efc]"
                 href="https://drive.google.com/file/d/1JB04bdNVrb-96qdC6EUlRk4c8oOPXK6i/view?usp=sharing"
               >
                 Google
@@ -99,7 +99,7 @@ export default function About() {
               <b>• 2015</b> - Specialization in Software Engineering and Digital
               Business from{" "}
               <a
-                className="text-custom-dark-green dark:text-[#4c7efc]"
+                className="text-[#4c7efc]"
                 href="https://drive.google.com/file/d/1hYkNPUsQeIjb4Bo9p31Nclm0dHzQTPyT/view?usp=sharing"
               >
                 C.E.S.A.R EDU, Brazil
@@ -109,7 +109,7 @@ export default function About() {
         </section>
 
         <section className="mt-8 dark:text-white">
-          <h1 className="text-2xl md:text-3xl font-serif text-title dark:text-white font-bold mb-5 uppercase">
+          <h1 className="text-2xl md:text-3xl font-serif text-[#4c7efc] dark:text-white font-bold mb-5 uppercase">
             Education
           </h1>
 

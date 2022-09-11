@@ -18,10 +18,7 @@ export default function Contact() {
             Let's work together and make the world a better place by bringing
             useful and seamless products. Fill in the form to contact me or send
             an email to{" "}
-            <a
-              href="mailto:ineliomacombo@gmail.com"
-              className="text-custom-dark-green dark:text-[#4c7efc]"
-            >
+            <a href="mailto:ineliomacombo@gmail.com" className="text-[#4c7efc]">
               ineliomacombo@gmail.com
             </a>
           </p>

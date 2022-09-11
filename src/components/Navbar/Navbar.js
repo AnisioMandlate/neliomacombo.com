@@ -38,7 +38,7 @@ const Navbar = () => {
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
-              className="w-4 h-4 transition-all duration-500 hover:text-custom-dark-green dark:hover:text-[#4c7efc]"
+              className="w-4 h-4 transition-all duration-500 hover:text-[#4c7efc]"
             >
               <line x1="18" y1="6" x2="6" y2="18"></line>
               <line x1="6" y1="6" x2="18" y2="18"></line>
@@ -59,7 +59,7 @@ const Navbar = () => {
               strokeWidth="2"
               strokeLinecap="round"
               stroke-line-join="round"
-              className="w-4 h-4 transition-all duration-500 hover:text-custom-dark-green dark:hover:text-[#4c7efc]"
+              className="w-4 h-4 transition-all duration-500 hover:text-[#4c7efc]"
             >
               <line x1="3" y1="12" x2="21" y2="12"></line>
               <line x1="3" y1="6" x2="21" y2="6"></line>
@@ -77,9 +77,9 @@ const Navbar = () => {
         <li>
           <Link href="/about-me/">
             <a
-              className={`no-underline text-lg md:text-sm transition-all duration-500 hover:text-custom-dark-green dark:hover:text-[#4c7efc] ${
+              className={`no-underline text-lg md:text-sm transition-all duration-500 hover:text-[#4c7efc] ${
                 router.pathname === "/about-me"
-                  ? "text-custom-dark-green dark:text-[#4c7efc]"
+                  ? "text-[#4c7efc]"
                   : "text-gray-800 dark:text-gray-50"
               } `}
             >
@@ -93,9 +93,9 @@ const Navbar = () => {
         <li>
           <Link href="/work/">
             <a
-              className={`no-underline text-lg md:text-sm transition-all duration-500 hover:text-custom-dark-green dark:hover:text-[#4c7efc] ${
+              className={`no-underline text-lg md:text-sm transition-all duration-500 hover:text-[#4c7efc] ${
                 router.pathname === "/work"
-                  ? "text-custom-dark-green dark:text-[#4c7efc]"
+                  ? "text-[#4c7efc]"
                   : "text-gray-800 dark:text-gray-50"
               } `}
             >
@@ -109,9 +109,9 @@ const Navbar = () => {
         <li>
           <Link href="/contact/">
             <a
-              className={`no-underline text-lg md:text-sm transition-all duration-500 hover:text-custom-dark-green dark:hover:text-[#4c7efc] ${
+              className={`no-underline text-lg md:text-sm transition-all duration-500 hover:text-[#4c7efc] ${
                 router.pathname === "/contact"
-                  ? "text-custom-dark-green dark:text-[#4c7efc]"
+                  ? "text-[#4c7efc]"
                   : "text-gray-800 dark:text-gray-50"
               } `}
             >
@@ -135,7 +135,7 @@ const Navbar = () => {
               viewBox="0 0 24 24"
               fill="currentColor"
               stroke="currentColor"
-              className="w-4 h-4 transition-all duration-500 hover:text-custom-dark-green dark:hover:text-[#4c7efc]"
+              className="w-4 h-4 transition-all duration-500 hover:text-[#4c7efc]"
             >
               {resolvedTheme === "dark" ? (
                 <>
