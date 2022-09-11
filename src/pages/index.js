@@ -9,7 +9,7 @@ export default function Home() {
       </Head>
 
       <div className="flex flex-col justify-center h-main">
-        <h1 className="text-6xl md:text-7xl font-serif text-title dark:text-white font-bold mb-5">
+        <h1 className="text-6xl md:text-7xl font-sans text-[#4c7efc] dark:text-white font-bold mb-5">
           Nélio Macombo
         </h1>
 

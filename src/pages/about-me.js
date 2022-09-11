@@ -10,7 +10,7 @@ export default function About() {
 
       <div className="my-8 flex flex-col justify-center">
         <section className="mt-8 dark:text-white">
-          <h1 className="text-2xl md:text-3xl font-serif text-[#4c7efc] dark:text-white font-bold mb-5 uppercase">
+          <h1 className="text-2xl md:text-3xl font-sans text-[#4c7efc] dark:text-white font-bold mb-5 uppercase">
             About Me
           </h1>
 
@@ -53,7 +53,7 @@ export default function About() {
         </section>
 
         <section className="mt-8 dark:text-white">
-          <h1 className="text-2xl md:text-3xl font-serif text-[#4c7efc] dark:text-white font-bold mb-5 uppercase">
+          <h1 className="text-2xl md:text-3xl font-sans text-[#4c7efc] dark:text-white font-bold mb-5 uppercase">
             Certifications
           </h1>
 
@@ -109,7 +109,7 @@ export default function About() {
         </section>
 
         <section className="mt-8 dark:text-white">
-          <h1 className="text-2xl md:text-3xl font-serif text-[#4c7efc] dark:text-white font-bold mb-5 uppercase">
+          <h1 className="text-2xl md:text-3xl font-sans text-[#4c7efc] dark:text-white font-bold mb-5 uppercase">
             Education
           </h1>
 

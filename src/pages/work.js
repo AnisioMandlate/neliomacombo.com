@@ -12,7 +12,7 @@ const Work = ({ projects }) => (
 
     <section className="my-8 flex flex-col justify-center">
       <header className="pb-16">
-        <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 text-title dark:text-white">
+        <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 text-[#4c7efc] dark:text-white">
           Work
         </h1>
 
