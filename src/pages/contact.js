@@ -15,11 +15,11 @@ export default function Contact() {
           </h1>
 
           <p className="text-lg">
-            Let's work together and make the world a better place by bringing
+            Let’s work together and make the world a better place by bringing
             useful and seamless products. Fill in the form to contact me or send
             an email to{" "}
             <a href="mailto:ineliomacombo@gmail.com" className="text-[#4c7efc]">
-              ineliomacombo@gmail.com
+              ineliomacombo@gmail.com{" "}
             </a>
           </p>
         </header>
