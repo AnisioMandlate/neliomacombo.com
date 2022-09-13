@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Author", ...fontFamily.sans],
+        sans: ["Ubuntu", ...fontFamily.sans],
       },
       gridTemplateRows: {
         app: "1fr 90px",

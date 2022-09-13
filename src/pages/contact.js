@@ -14,7 +14,7 @@ export default function Contact() {
             Get in touch
           </h1>
 
-          <p className="text-lg uppercase">
+          <p className="text-lg">
             Let's work together and make the world a better place by bringing
             useful and seamless products. Fill in the form to contact me or send
             an email to{" "}
