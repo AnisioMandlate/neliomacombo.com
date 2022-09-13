@@ -1,7 +1,39 @@
 import Head from "next/head";
 import { Fragment } from "react";
+import { useForm, ValidationError } from "@formspree/react";
 
 export default function Contact() {
+  const [state, handleSubmit] = useForm("mdojaqkj");
+  if (state.succeeded) {
+    return (
+      <Fragment>
+        <Head>
+          <title>Contact - Nélio Macombo | Product Manager</title>
+        </Head>
+
+        <section className="my-8 flex flex-col md:flex-row justify-between w-full gap-8">
+          <header className="pt-2 pb-16 w-full md:w-[50%]">
+            <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 text-[#4c7efc] dark:text-white">
+              Get in touch
+            </h1>
+
+            <p className="text-lg">
+              Let’s work together and make the world a better place by bringing
+              useful and seamless products. Fill in the form to contact me or
+              send an email to{" "}
+              <a
+                href="mailto:ineliomacombo@gmail.com"
+                className="text-[#4c7efc]"
+              >
+                ineliomacombo@gmail.com{" "}
+              </a>
+            </p>
+          </header>
+        </section>
+      </Fragment>
+    );
+  }
+
   return (
     <Fragment>
       <Head>
@@ -26,7 +58,7 @@ export default function Contact() {
 
         <section className="py-3 text-gray-700 dark:text-white w-full md:w-[50%]">
           <div className="mt-5 md:col-span-full md:mt-0">
-            <form action="#" method="POST">
+            <form onSubmit={handleSubmit}>
               <div>
                 <div>
                   <div className="grid grid-cols-6 gap-6">
