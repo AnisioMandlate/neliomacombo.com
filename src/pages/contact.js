@@ -14,20 +14,8 @@ export default function Contact() {
         <section className="my-8 flex flex-col md:flex-row justify-between w-full gap-8">
           <header className="pt-2 pb-16 w-full md:w-[50%]">
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 text-[#4c7efc] dark:text-white">
-              Get in touch
+              Submited successful 🙂
             </h1>
-
-            <p className="text-lg">
-              Let’s work together and make the world a better place by bringing
-              useful and seamless products. Fill in the form to contact me or
-              send an email to{" "}
-              <a
-                href="mailto:ineliomacombo@gmail.com"
-                className="text-[#4c7efc]"
-              >
-                ineliomacombo@gmail.com{" "}
-              </a>
-            </p>
           </header>
         </section>
       </Fragment>
