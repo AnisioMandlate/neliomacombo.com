@@ -14,7 +14,7 @@ export default function Contact() {
         <section className="my-8 flex flex-col md:flex-row justify-between w-full gap-8">
           <header className="pt-2 pb-16 w-full md:w-[50%]">
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 text-[#4c7efc] dark:text-white">
-              Submited successful 🙂
+              Message submited successful 🙂
             </h1>
           </header>
         </section>
