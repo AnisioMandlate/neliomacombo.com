@@ -8,23 +8,23 @@ class MyDocument extends Document {
           <meta name="robots" content="follow, index" />
           <link
             rel="preload"
-            href="/fonts/InterVar.woff2"
+            href="/fonts/Ubuntu-Regular.ttf"
             as="font"
-            type="font/woff2"
+            type="font/ttf"
             crossOrigin="anonymous"
           />
           <link
             rel="preload"
-            href="/fonts/Author-Bold.otf"
+            href="/fonts/Ubuntu-Medium.ttf"
             as="font"
-            type="font/otf"
+            type="font/ttf"
             crossOrigin="anonymous"
           />
           <link
             rel="preload"
-            href="/fonts/Author-Semibold.otf"
+            href="/fonts/Ubuntu-Bold.ttf"
             as="font"
-            type="font/otf"
+            type="font/ttf"
             crossOrigin="anonymous"
           />
           <meta

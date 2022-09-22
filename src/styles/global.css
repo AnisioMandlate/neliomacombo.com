@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Ubuntu";
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 100, 800;
   font-display: optional;
