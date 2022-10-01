@@ -6,7 +6,7 @@ import { Navbar } from "../components/Navbar";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider attribute="class">
+    <>
       <Script
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_KEY}`}
@@ -22,14 +22,16 @@ function MyApp({ Component, pageProps }) {
         });
     `}
       </Script>
-      <div className="grid grid-rows-mobile md:grid-rows-app min-h-screen justify-items-center pt-32">
-        <Navbar />
-        <main className="max-w-5xl w-full px-10 md:px-12 h-full my-auto">
-          <Component {...pageProps} />
-        </main>
-        <Footer />
-      </div>
-    </ThemeProvider>
+      <ThemeProvider attribute="class">
+        <div className="grid grid-rows-mobile md:grid-rows-app min-h-screen justify-items-center pt-32">
+          <Navbar />
+          <main className="max-w-5xl w-full px-10 md:px-12 h-full my-auto">
+            <Component {...pageProps} />
+          </main>
+          <Footer />
+        </div>
+      </ThemeProvider>
+    </>
   );
 }
 
