@@ -6,27 +6,6 @@ class MyDocument extends Document {
       <Html lang="en" className="min-h-full">
         <Head>
           <meta name="robots" content="follow, index" />
-          <link
-            rel="preload"
-            href="/fonts/Ubuntu-Regular.ttf"
-            as="font"
-            type="font/ttf"
-            crossOrigin="anonymous"
-          />
-          <link
-            rel="preload"
-            href="/fonts/Ubuntu-Medium.ttf"
-            as="font"
-            type="font/ttf"
-            crossOrigin="anonymous"
-          />
-          <link
-            rel="preload"
-            href="/fonts/Ubuntu-Bold.ttf"
-            as="font"
-            type="font/ttf"
-            crossOrigin="anonymous"
-          />
           <meta
             name="google-site-verification"
             content="ts6KM6Dv4SPMIMaIRryYAkGrXLKIKqaU1dXkihI-bQ0"

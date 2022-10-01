@@ -70,7 +70,7 @@ const Navbar = () => {
       </div>
 
       <ul
-        className={`md:flex md:items-center md:justify-evenly z-[-1] md:z-auto md:static absolute bg-white dark:bg-[#101827] md:w-full left-0 md:py-12 py-12 w-full md:pl-0 pl-12 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 ${
+        className={`md:flex md:items-center md:justify-evenly z-[-1] md:z-auto md:static absolute bg-white dark:bg-[#101827] md:w-[50%] left-0 md:py-12 py-12 w-full md:pl-0 pl-12 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 ${
           open ? "top-[80px] opacity-100" : ""
         }`}
       >
