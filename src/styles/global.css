@@ -1,22 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@font-face {
-  font-family: "Ubuntu", sans-serif;
-  font-style: normal;
-  font-weight: 100, 800;
-  font-display: optional;
-  src: url(/fonts/Ubuntu-Regular.ttf) format("ttf");
-  src: url(/fonts/Ubuntu-Medium.ttf) format("ttf");
-  src: url(/fonts/Ubuntu-Bold.ttf) format("ttf");
-}
 
 @layer base {
   a {
     @apply underline;
     @apply text-[#4c7efc];
   }
+}
+
+* {
+  font-family: "Ubuntu", sans-serif;
 }
 
 html {
