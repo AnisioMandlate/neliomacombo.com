@@ -43,14 +43,6 @@ const Work = ({ projects }) => (
                 ))}
               </div>
             </div>
-            <div className="project-image">
-              <Image
-                src={`/${project.image}`}
-                alt={`${project.title} preview image`}
-                width={600}
-                height={400}
-              />
-            </div>
           </li>
         ))}
       </ul>
