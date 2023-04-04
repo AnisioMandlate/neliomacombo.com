@@ -31,6 +31,9 @@ const Work = ({ projects }) => (
               </h2>
               <div className="project-content__description bg-white dark:bg-gray-900">
                 <p>{project.description}</p>
+                <p className="mt-3">
+                  Check more: <a href={project.link}>{project.link}</a>
+                </p>
               </div>
               <div>
                 {project.tags.map((tag, index) => (
